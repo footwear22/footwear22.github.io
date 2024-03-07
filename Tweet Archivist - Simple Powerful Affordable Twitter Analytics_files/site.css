@@ -1,0 +1,164 @@
+
+.ta-bar-chart {
+	--color-shadow-blue: #0d2947;
+	--color-core-blue: #0099ec;
+	--color-pale-blue: #e9f6fe;
+	--color-accent-orange: #f7892d;
+	--color-blue-blend-1: #0063bb;
+	--color-blue-blend-2: #48b5f0;
+	--color-blue-blend-3: #5fccf5;
+	--color-accent-green: #14af35;
+	box-sizing: border-box;
+	color: var(--color-shadow-blue);
+	line-height: 1.5;
+	flex: 1 1 30rem;
+	/* padding: 2rem; */
+	border: 1px solid currentColor;
+	background-color: #fff;
+	border-radius: 2rem;
+}
+
+	.ta-bar-chart .row-container + .row-container {
+		margin-top: 0.5rem;
+	}
+
+	.ta-bar-chart .row-name > a {
+		text-decoration: none;
+		color: var(--color-core-blue);
+		transition: color 0.15s ease-in-out;
+		font-size: 2rem;
+		font-weight: 500;
+	}
+
+		.ta-bar-chart .row-name > a:hover {
+			color: var(--color-accent-orange);
+		}
+
+	.ta-bar-chart .row-bar-container {
+		margin-right: 6rem;
+		height: 1.5rem;
+	}
+
+	.ta-bar-chart .row-bar {
+		border-radius: 4px;
+		height: 100%;
+		background-color: var(--color-blue-blend-3);
+		border: 1px solid var(--color-shadow-blue);
+	}
+
+	.ta-bar-chart .row-value {
+		position: relative;
+		left: 100%;
+		padding-left: 0.5rem;
+	}
+
+.ta-line-chart {
+	--color-shadow-blue: #0d2947;
+	--color-core-blue: #0099ec;
+	--color-pale-blue: #e9f6fe;
+	--color-accent-orange: #f7892d;
+	--color-blue-blend-1: #0063bb;
+	--color-blue-blend-2: #48b5f0;
+	--color-blue-blend-3: #5fccf5;
+	--color-accent-green: #14af35;
+	--color-background: #fff;
+	box-sizing: border-box;
+	color: var(--color-shadow-blue);
+	font-weight: 500;
+	line-height: 1.5;
+	position: relative;
+	flex: 1 1 30rem;
+	padding: 2rem;
+	border: 1px solid currentColor;
+	background-color: #fff;
+	border-radius: 2rem;
+}
+
+	.ta-line-chart .chart-svg {
+		display: block;
+		overflow: visible;
+	}
+
+	.ta-line-chart .axis-g {
+		font-family: inherit;
+		font-size: 0.75rem;
+		color: var(--color-blue-blend-1);
+	}
+
+	.ta-line-chart .axis-g--y .tick line {
+		color: var(--color-blue-blend-3);
+		stroke-dasharray: 4;
+	}
+
+	.ta-line-chart .line-path {
+		color: var(--color-shadow-blue);
+	}
+
+	.ta-line-chart .focus-g {
+		opacity: 0;
+		transition: opacity 0.15s ease-in-out;
+	}
+
+		.ta-line-chart .focus-g.is-visible {
+			opacity: 1;
+		}
+
+	.ta-line-chart .focus-line {
+		color: var(--color-shadow-blue);
+		stroke-dasharray: 4;
+	}
+
+	.ta-line-chart .focus-circle--halo {
+		fill-opacity: 0.25;
+	}
+
+	.ta-line-chart .focus-circle {
+		fill: var(--color-background);
+	}
+
+	.ta-line-chart .tooltip-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: center;
+		pointer-events: none;
+		padding: 0.25rem 0.5rem;
+		background-color: var(--color-background);
+		border: 1px solid var(--color-shadow-blue);
+		border-radius: 0.25rem;
+		opacity: 0;
+		visibility: hidden;
+		transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+	}
+
+		.ta-line-chart .tooltip-container.is-visible {
+			opacity: 0.95;
+			visibility: visible;
+		}
+
+.tweets-holder {
+	border: 1px solid $secondary;
+	border-radius: 30px;
+	overflow: hidden;
+
+}
+
+/*
+     FILE ARCHIVED ON 23:01:04 Feb 21, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:06:44 Mar 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.21
+  exclusion.robots.policy: 0.123
+  cdx.remote: 0.151
+  esindex: 0.015
+  LoadShardBlock: 220.346 (6)
+  PetaboxLoader3.datanode: 214.073 (7)
+  load_resource: 274.528
+  PetaboxLoader3.resolve: 69.017
+*/
